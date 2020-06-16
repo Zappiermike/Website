@@ -1,12 +1,52 @@
-div {
+#nameHeader {
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30pt;
+    text-align: center;
+}
+h2 {
+    display: inline;
+    font-family: monospace;
+    color: gray;
+}
+h3{
+    color: purple;
+}
+a{
+  color: inherit;
+}
 
-    h1 {
-        color: black;
-    }
-    h2 {
-        color: white;
-    }
-    h3{
-        color: purple;
-    }
+.welcome_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p{
+    font-family: monospace;
+    color: orange;
+}
+body{
+  background-color: rgb(56,56,56);
+}
+
+.nav{
+  font-family: monospace;
+  color: gray;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li{
+  display: inline-block;
+  padding: 10px;
+  margin-left: 130px;
+  margin-right: 130px;
+  font-size: 22px;
+  font-family: monospace;
+  font-weight: bold;
 }
